@@ -1,0 +1,22 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "Recipe application with custom recipe uploads.",
+  "scripts": {
+    "start": "parcel index.html --no-cache --no-source-maps",
+    "build": "parcel build index.html --no-source-maps --public-url . --no-cache --dist-dir out"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.18.0",
+    "fraction.js": "^4.1.1",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  }
+}
