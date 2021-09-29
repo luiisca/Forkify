@@ -23,9 +23,7 @@ const controlRecipes = async function () {
     // 3) Rendering recipe
     recipeView.renderSpinner();
 
-    console.log(model.state.recipe);
     recipeView.render(model.state.recipe);
-    console.log(model.state.recipe);
   } catch (err) {
     recipeView.renderError(err);
     console.error(err);
@@ -74,7 +72,6 @@ const controlAddBookmarks = function () {
 
   // 2) Update recipeview
   recipeView.update(model.state.recipe);
-  console.log(model.state.recipe);
 
   // 3) Update bookmarks
   bookmarksView.render(model.state.bookmarks);
